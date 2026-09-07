@@ -1,0 +1,42 @@
+# ---- local-llm-lab: root ignores ----
+
+# virtual environments
+venv/
+.venv/
+*/venv/
+*/.venv/
+
+# model weights / downloads (large) - never commit
+models/
+*/models/
+**/models/
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# secrets - never commit (only *.env.example is allowed)
+.env
+*.env
+!*.env.example
+!.env.example
+*.key
+*.pem
+secrets*.json
+credentials*.json
+token*.txt
+
+# runtime / output
+out/
+outputs/
+*.log
+.cache/
+
+# python / IDE
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
+.claude/

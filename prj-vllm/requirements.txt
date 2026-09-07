@@ -1,0 +1,9 @@
+# Client + examples only. Runs anywhere (no GPU needed).
+httpx>=0.27
+python-dotenv>=1.0
+
+# The vLLM server itself is NOT installed by this file — it needs Linux + an
+# NVIDIA GPU. On the server host:
+#     pip install vllm
+# Optional, for download_model.py:
+#     pip install huggingface_hub

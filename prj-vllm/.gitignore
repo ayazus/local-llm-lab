@@ -1,0 +1,16 @@
+venv/
+.venv/
+models/
+*.safetensors
+*.bin
+*.gguf
+.env
+*.env
+!*.env.example
+*.key
+*.pem
+secrets*.json
+__pycache__/
+*.pyc
+*.log
+out/
