@@ -56,6 +56,8 @@ Deep dive in [`prj-vllm/README.md`](prj-vllm/README.md).
 |---|---|
 | [`prj-vllm`](prj-vllm) | Serve a model with the vLLM OpenAI server; an `httpx` streaming + non-streaming client (no `openai` SDK); the **token → sentence → downstream** pipeline ("double-streaming") with **barge-in**; and **TTFT / tokens-per-second** metrics. Patterns extracted from a production real-time voice system. |
 
+| [`prj-llm-inference`](prj-llm-inference) | Three ways to talk to a local LLM, each with one-shot and streaming chat: Hugging Face `transformers` (in-process), the Ollama HTTP API, and `llama.cpp` (GGUF). |
+
 ### Roadmap (planned folders)
 
 | Folder | Idea |
